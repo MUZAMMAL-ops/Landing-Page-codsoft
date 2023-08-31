@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+
+.nav_1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    border: 1px solid black;
+    height: 64px;
+    overflow: hidden;
+    background-color: rgb(170, 172, 62);
+    border: none;
+    padding-right: 40px;
+   
+    
+}
+.nav_1 > li{
+    
+    padding: 30px;
+    list-style: none;
+    color: aliceblue;
+
+
+}
+img{
+    position: fixed;
+    left: 10px;
+    width: 50px;
+    
+}
+h2{
+    position: fixed;
+    left: 80px;
+    color: aliceblue;
+}
