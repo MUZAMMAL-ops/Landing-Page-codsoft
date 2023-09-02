@@ -1,9 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: visible;
-}
+    overflow-y: auto;
 
+    
+}
+body{
+    margin: 0;
+    flex-wrap: wrap;
+    background-color:bisque;
+}
 
 .nav_1{
     display: flex;
@@ -17,9 +23,11 @@
     border: 1px solid black;
     height: 64px;
     overflow: hidden;
-    background-color: rgb(170, 172, 62);
+    background-color: rgb(29, 16, 170);
     border: none;
     padding-right: 40px;
+    z-index: 20;
+    flex-wrap: wrap;
    
     
 }
@@ -31,14 +39,204 @@
 
 
 }
-img{
+.first_img{
     position: fixed;
     left: 10px;
     width: 50px;
     
 }
-h2{
+.first_h2{
     position: fixed;
     left: 80px;
     color: aliceblue;
 }
+
+
+.hero-banner {
+    margin-top: 64px;
+    width: 100%;
+    z-index: 19;
+}
+
+.hero-banner > img {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    
+   
+}
+.hero-banner:hover{
+    zoom: normal;
+}
+
+
+.Buy{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: xx-large;    
+    z-index: 18;
+}
+.Btn{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: green;
+    top: 430px;
+    left: 230px;
+    border: none;
+    color: gold;
+    font-style: oblique;
+    z-index: 17;
+    
+}
+.Btn:hover{
+    background-color: black;
+    color: white;
+    animation: 3s linear 1s infinite alternate slidein;
+}
+
+.Ecomm{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(99, 137, 153);
+    margin-left: 25%;
+    width: 50%;
+    border: none;
+    z-index: 16;
+    color: wheat;
+    flex-wrap: wrap;
+}
+.Ecomm > h1{
+    align-content: center;
+}
+
+.art{
+    display: flex;
+    border: 1px solid black;
+    width: 47%;
+    height: 450px;
+    margin-top: 7px;
+    margin-left: 355px;
+    border-radius: 10px;
+    border: none;
+    background-color: honeydew;
+    z-index: 15;
+    flex-wrap: wrap;
+   
+}
+
+.inp{
+    display: flex;
+    justify-items: center;
+    
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+    flex-wrap: wrap;
+    
+}
+.inp:hover{
+    outline: none;
+    border-color: blue;
+}
+.inp_1{
+    display: flex;
+    justify-items: center;
+    
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+    flex-wrap: wrap;
+
+}
+.inp_1:hover{
+    outline: none;
+    border-color: rgb(25, 218, 128);
+
+}
+.inp_2{
+    display: flex;
+    justify-items: center;
+    
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+    flex-wrap: wrap;
+
+}
+.inp_2:hover{
+    outline: none;
+    border-color: rgb(226, 28, 163);
+}
+.inp_3{
+    display: flex;
+    justify-items: center;
+    
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+    flex-wrap: wrap;
+
+}
+.inp_3:hover{
+    outline: none;
+    border-color: rgb(232, 232, 54);
+}
+.inp_0{
+    margin-left: 525px;
+}
+.inp_4{
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    margin-left: 75px;
+    color: white;
+
+}
+
+.footer{
+    
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 40px;
+    height: 200px;
+    background-color: rgb(55, 52, 52);
+    box-sizing: border-box;
+    border: none;
+    z-index: 10;
+    flex-wrap: wrap;
+    
+}
+
+.footer > h1{
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer > div{
+    margin-left: 10px;
+    width: 50px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-top: 140px;
+    
+    
+
+}
+
+
+
+
+
